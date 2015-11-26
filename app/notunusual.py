@@ -1,8 +1,6 @@
 from datetime import datetime
 
 class NotUnusual(object):
-    username = "Wrong"
-    password = "dontdoit"
     def __init__(self, a_str):
         self.name = a_str
 
