@@ -14,5 +14,8 @@ class NotUnusual(object):
             print arg
 
         if kwargs is not None:
+            if kwargs['name'] is not None:
+                print "Your name is %s" % kwargs['name']
+
             for key, value in kwargs.iteritems():
                 print key, value
